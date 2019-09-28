@@ -1,0 +1,115 @@
+body{
+	background-color: #232323;
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	color: white;
+}
+
+h1{
+	padding: 30px 0;
+	background-color: steelblue;
+	color:white;
+	margin: 0px;
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 50px;
+	letter-spacing: 3px;
+	font-weight: normal;
+	font-size: 40px;
+}
+
+h2{
+	font-size: 30px;
+	margin-top: 30px;
+	color: white;
+	text-decoration: underline;
+	text-align: center;	
+}
+
+img{
+	max-width: 50%;
+	float: left;
+	margin-right: 50px; 
+	margin-left:5px;
+	margin-bottom: 50px;
+}
+
+button{
+	background-color: white;
+	border: solid #232323 2px ;
+	text-transform: uppercase;
+	border: 0;
+	
+	height: 100%;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+button:hover{
+	background-color: steelblue;
+	color: white;
+	transition: all 0.4s;
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+}
+
+.mainContainerClass{
+	width: 80%;
+	align-content: auto;
+}
+
+.square{
+	width:30%;
+	margin: 1.66%;
+	padding-bottom:30%;
+	border-radius: 25px;
+	float: left;
+	transition: background 0.4s;
+	-webkit-transition: background 0.3s;
+	-moz-transition: background 0.3s;
+}
+
+.selected{
+	background-color: steelblue;
+	color: white;
+}
+
+#container{
+	max-width: 100%;
+	padding-bottom: 60%;
+	margin: 0 auto;
+}
+
+#colorDisplay{
+	font-size: 150%;
+}
+
+#message{
+	color:white;
+	display: inline-block;
+	width: 15%;
+	font-size: 20px;
+}
+
+#nav{
+	height: 30px;
+	width: 100%;
+	background-color: white;
+	text-align:center;
+}
+
+#mainContainer{
+	max-width: 720px;
+	margin: 40px auto;
+	margin-bottom: 40px;
+}
+
+#container1{
+	height: 410px;
+	border:solid white 4px ;
+	margin: 0 auto;
+	color: white;
+	border-color: white;
+	background-color: green;
+	padding: 5px;
+}
